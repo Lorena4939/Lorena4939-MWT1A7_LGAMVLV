@@ -8,7 +8,7 @@ body {
 h1 {
     color: #fff;
     font-family: 'Spectral';
-    font-size: 35px;
+    font-size: 35vmin;
     text-transform: uppercase;
     text-align: center;
     margin: 40px 40px 40px 40px;
@@ -17,7 +17,7 @@ h1 {
 h2 {
     color: rgb(0, 0, 0);
     font-family: 'Spectral';
-    font-size: 30px;
+    font-size: 30vmin;
     text-transform: capitalize;
     text-align: center;
     align-items: center;
@@ -27,7 +27,7 @@ h2 {
 .encabezado-fem {
     color: #bd0000ff;
     font-family: 'Spectral';
-    font-size: 30px;
+    font-size: 30vmin;
     text-transform: capitalize;
     text-align: center;
     align-items: center;
@@ -37,7 +37,7 @@ h2 {
 h3 {
     color: rgb(0, 0, 0);
     font-family: 'Spectral';
-    font-size: 30px;
+    font-size: 30vmin;
     text-transform: capitalize;
     text-align: center;
     margin: 20px 20px 20px 20px;
@@ -81,7 +81,8 @@ h3 {
     justify-content: space-around;
     align-self: center;
     align-items: center;
-    flex-wrap: wrap;
+    font-size: 3vmin;
+    margin: 20px;
 }
 
 
@@ -99,8 +100,10 @@ h3 {
 
 .flex-menu .navegacion-menu {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 50%;
+    align-items: center;
+    margin: 0;
 }
 
 .flex-menu .navegacion-menu a {
@@ -218,7 +221,7 @@ ul {
 .encabezado-titulo p {
     color: #fff;
     font-family: 'Spectral';
-    font-size: 22px;
+    font-size: 22vmin;
     text-transform: unset;
     text-align: justify;
 }
@@ -229,7 +232,7 @@ ul {
 .encabezado-titulo a {
     color: #01bebe;
     font-family: 'Spectral';
-    font-size: 24px;
+    font-size: 2.8vmin;
     text-transform: unset;
 }
 
@@ -258,7 +261,7 @@ main .seccion-obj a {
     background-color: rgb(0, 160, 160);
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 18vmin;
     width: 200px;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -323,7 +326,7 @@ main .dos-columnas p {
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: initial;
-    font-size: 16px;
+    font-size: 16vmin;
     text-align: justify;
     margin: 0;
 }
@@ -361,7 +364,7 @@ main .tipos-dos-columnas p {
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: initial;
-    font-size: 16px;
+    font-size: 16vmin;
     text-align: justify;
     margin: 0;
 }
@@ -376,11 +379,17 @@ body {
 
 /*Configuracion de imagenes verticales*/
 
-img {
+.img-parrafo {
     width: auto;
     height: auto;
-    max-width: 300px;
-    max-height: 500px;
+    max-width: 30vmax;
+}
+
+.img-carusel {
+    width: auto;
+    height: auto;
+    max-width: 30vmax;
+    max-height: 40vmax;
 }
 
 
@@ -389,7 +398,7 @@ img {
 .img-horizontal {
     width: auto;
     height: auto;
-    max-width: 500px;
+    max-width: 40vmax;
 }
 
 
@@ -398,7 +407,7 @@ img {
 h1 {
     color: #fff;
     font-family: 'Spectral';
-    font-size: 35px;
+    font-size: 35vmin;
     text-transform: uppercase;
     text-align: center;
     margin: 40px 40px 40px 40px;
@@ -407,7 +416,7 @@ h1 {
 h2 {
     color: rgb(0, 0, 0);
     font-family: 'Spectral';
-    font-size: 30px;
+    font-size: 30vmin;
     text-transform: capitalize;
     text-align: center;
     align-items: center;
@@ -417,7 +426,7 @@ h2 {
 .encabezado-fem {
     color: #bd0000ff;
     font-family: 'Spectral';
-    font-size: 30px;
+    font-size: 5.5vmin;
     text-transform: capitalize;
     text-align: center;
     align-items: center;
@@ -427,7 +436,7 @@ h2 {
 h3 {
     color: rgb(0, 0, 0);
     font-family: 'Spectral';
-    font-size: 30px;
+    font-size: 30vmin;
     text-transform: capitalize;
     text-align: center;
     margin: 20px 20px 20px 20px;
@@ -491,8 +500,7 @@ h3 {
 .flex-menu .navegacion-menu {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    width: 50%;
+    align-items: center;
 }
 
 .flex-menu .navegacion-menu a {
@@ -500,6 +508,7 @@ h3 {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
+    margin: 10px;
 }
 
 .flex-menu .navegacion-menu a:hover {
@@ -610,7 +619,7 @@ ul {
 .encabezado-titulo p {
     color: #fff;
     font-family: 'Spectral';
-    font-size: 22px;
+    font-size: 3.5vmin;
     text-transform: unset;
     text-align: justify;
 }
@@ -621,8 +630,12 @@ ul {
 .encabezado-titulo a {
     color: #01bebe;
     font-family: 'Spectral';
-    font-size: 24px;
+    font-size: 3.5vmin;
     text-transform: unset;
+}
+
+.encabezado-titulo a:hover {
+    color: #02e6e6;
 }
 
 
@@ -650,7 +663,7 @@ main .seccion-obj a {
     background-color: rgb(0, 160, 160);
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 3vmin;
     width: 200px;
     margin-bottom: 30px;
     margin-top: 30px;
@@ -716,7 +729,7 @@ main .dos-columnas p {
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: initial;
-    font-size: 16px;
+    font-size: 2.8vmin;
     text-align: justify;
     margin: 0;
 }
@@ -754,7 +767,7 @@ main .tipos-dos-columnas p {
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: initial;
-    font-size: 16px;
+    font-size: 2.7vmin;
     text-align: justify;
     margin: 0;
 }
@@ -776,7 +789,7 @@ main .t-seccion-obj {
 main .t-seccion-obj a {
     color: rgb(1, 201, 184);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 3vmin;
     margin-left: 5px;
 }
 
@@ -794,7 +807,7 @@ main .t-seccion-obj a {
 main .tres-columnas p {
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 3vmin;
     text-align: justify;
     margin-top: 20px;
 }
@@ -802,8 +815,8 @@ main .tres-columnas p {
 main .tres-columnas img {
     width: auto;
     height: auto;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 40vmax;
+    max-height: 40vmin;
 }
 
 
@@ -825,14 +838,14 @@ main .fem-seccion-obj {
     color: rgb(134, 2, 2);
     text-align: center;
     font-family: 'Lucida Sans';
-    font-size: 14px;
+    font-size: 2.5vmin;
 }
 
 main .fem-seccion-obj a {
     background-color: #bd0000ff;
     color: rgb(235, 235, 235);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 3vmin;
     width: 200px;
     margin-top: 30px;
     padding: 10px 0;
@@ -868,7 +881,7 @@ main .fem-dos-columnas p {
     color: rgb(0, 0, 0);
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: initial;
-    font-size: 16px;
+    font-size: 3vmin;
     text-align: justify;
 }
 
@@ -888,7 +901,7 @@ main .fem-dos-columnas p {
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     text-align: center;
-    font-size: 30px;
+    font-size: 5.6vmin;
     margin-top: 60px;
 }
 
@@ -896,7 +909,8 @@ main .fem-dos-columnas p {
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     text-align: center;
-    font-size: 20px;
+    font-size: 3.5vmin;
+    margin: 10px 0 50px 0;
 }
 
 .columnas-test-circulo {
@@ -904,8 +918,8 @@ main .fem-dos-columnas p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 0;
-    margin-top: 100px;
+    align-items: center;
+    margin: 60px auto;
 }
 
 .columnas-test-circulo .circulo {
@@ -920,6 +934,7 @@ main .fem-dos-columnas p {
 .columnas-test-circulo .fase-uno {
     color: #000;
     text-transform: uppercase;
+    font-size: 3vw;
 }
 
 .sepadador-test {
@@ -932,7 +947,7 @@ main .fem-dos-columnas p {
 }
 
 .columnas-test {
-    flex-basis: calc( 50% - 30px);
+    flex-basis: calc( 50% - 0px);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -965,7 +980,8 @@ span:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px 0 120px 0;
+    margin: 25px;
+    padding: 20px 0 70px 0;
 }
 
 
@@ -975,13 +991,14 @@ span:hover {
     display: flex;
     justify-content: space-around;
     text-align: justify;
-    padding: 0 30px 0 30px;
+    margin: 0 5px 20px 5px;
 }
 
 .encabezado-titulo-test .primer-parrafo {
     color: #01bebe;
     font-family: 'Spectral';
     text-transform: unset;
+    font-size: 1.5vw;
 }
 
 .encabezado-titulo-test .segundo-parrafo {
@@ -992,14 +1009,13 @@ span:hover {
     flex-wrap: wrap;
     align-items: center;
     text-align: justify;
-    padding: 0 30px 10px 30px;
-    margin: 0;
+    padding: 0 5px 40px 5px;
 }
 
 .encabezado-titulo-test .segundo-parrafo {
     color: #fff;
     font-family: 'Spectral';
-    font-size: 20px;
+    font-size: 1.5vw;
     text-transform: unset;
     text-align: justify;
 }
@@ -1015,36 +1031,38 @@ span:hover {
 
 /*--INICIO - TEST - MODIFICACION DE PREGUNTAS-->  */
 
-.test-preguntas {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
 
 /*--FIN - TEST - MODIFICACION DE PREGUNTAS-->  */
 
 .formulario-preguntas {
     margin: 0 auto;
+    display: block;
+    align-items: center;
 }
 
 .formulario-preguntas p {
     color: #000000;
     font-family: 'Spectral';
+    font-size: 1.5vw;
     text-transform: none;
     text-align: justify;
+    align-items: center;
 }
 
 .formulario-preguntas input {
-    margin: 0 10px 25px 20px;
+    align-items: center;
+    font-size: 1.5vw;
+    margin: 0 10px 20px 10px;
 }
 
 .formulario-preguntas label {
-    margin: 0;
+    align-items: center;
+    font-size: 1.5vw;
 }
 
 .submit {
+    display: block;
+    font-size: 1.5vw;
     background-color: #01bebe;
     color: #fff;
     font-family: 'Spectral';
@@ -1052,7 +1070,7 @@ span:hover {
     padding: 10px 40px 10px 40px;
     border: none;
     border-radius: 0%;
-    text-align: right;
+    margin: 15px auto;
 }
 
 .submit:hover {
@@ -1120,7 +1138,6 @@ span:hover {
     justify-content: space-around;
     align-self: center;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .flex-footer nav a {
@@ -1128,7 +1145,7 @@ span:hover {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 2.3vmin;
     margin: 10px;
 }
 
@@ -1142,8 +1159,9 @@ nav a:hover {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     text-transform: none;
-    font-size: 14px;
+    font-size: 2.3vmin;
     margin: 10px;
+    align-items: center;
 }
 
 nav p:hover {
@@ -1153,7 +1171,7 @@ nav p:hover {
 .redes .iconos {
     width: auto;
     height: auto;
-    max-width: 20px;
+    max-width: 3vmin;
 }
 
 .redes .iconos:hover {
