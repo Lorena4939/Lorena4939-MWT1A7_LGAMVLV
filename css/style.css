@@ -395,7 +395,7 @@ body {
 
 /*Configuracion de imagenes horizontales*/
 
-.img-horizontal {
+.fem-seccion-obj .img-horizontal {
     width: auto;
     height: auto;
     max-width: 40vmax;
